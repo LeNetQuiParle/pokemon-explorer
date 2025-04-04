@@ -1,0 +1,36 @@
+body {
+  font-family: monospace;
+  text-align: center;
+  align-items: center;
+  width: calc(100vw - 16px);
+}
+
+#root {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.element {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  font-size: 200%;
+  padding: 15px;
+  border: 5px solid darkgray;
+  background-color: gray;
+  color: black;
+}
+
+.element:hover {
+  background-color: black;
+  color: white;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 4px;
+  height: 32px;
+  font-size: 200%;
+}
