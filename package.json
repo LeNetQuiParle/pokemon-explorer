@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "homepage": "https://lenetquiparle.github.io/pokemon-explorer",
-  "dependencies": {
-    // Your dependencies here
-  },
+  "dependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
